@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/bt_Do"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/teclas"
+            android:text="@string/doo"
+            android:textColor="@color/black"
+            android:onClick="SonidoDo"/>
+
+        <Button
+            android:id="@+id/bt_Re"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/re"
+            android:textColor="@color/black"
+            android:background="@color/teclas"
+            android:onClick="SonidoRe"/>
+
+        <Button
+            android:id="@+id/bt_Mi"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/mi"
+            android:textColor="@color/black"
+            android:background="@color/teclas"
+            android:onClick="SonidoMi"/>
+
+        <Button
+            android:id="@+id/bt_Fa"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/fa"
+            android:textColor="@color/black"
+            android:background="@color/teclas"
+            android:onClick="SonidoFa"/>
+
+        <Button
+            android:id="@+id/bt_Sol"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/sol"
+            android:textColor="@color/black"
+            android:background="@color/teclas"
+            android:onClick="SonidoSol"/>
+
+        <Button
+            android:id="@+id/bt_La"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/la"
+            android:textColor="@color/black"
+            android:background="@color/teclas"
+            android:onClick="SonidoLa"/>
+
+        <Button
+            android:id="@+id/bt_Si"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/si"
+            android:textColor="@color/black"
+            android:background="@color/teclas"
+            android:onClick="SonidoLa"/>
+    </LinearLayout>
+</LinearLayout>
