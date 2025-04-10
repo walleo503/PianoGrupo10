@@ -2,4 +2,5 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="teclas">#FFFFFFFF</color>
+    <color name="tecla2">#E73333</color>
 </resources>
