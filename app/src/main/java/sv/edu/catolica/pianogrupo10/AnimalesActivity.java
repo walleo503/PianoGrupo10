@@ -51,7 +51,7 @@ public class AnimalesActivity extends AppCompatActivity {
     }
 
     private void reproducirSonidoLibre(int sonidoResId, String nombre) {
-        // Detener cualquier sonido que se esté reproduciendo actualmente
+
         if (mediaPlayer != null && mediaPlayer.isPlaying()) {
             mediaPlayer.stop();
             mediaPlayer.release();
@@ -59,14 +59,14 @@ public class AnimalesActivity extends AppCompatActivity {
 
         MediaPlayer sonido = MediaPlayer.create(this, sonidoResId);
         if (sonido != null) {
-            mediaPlayer = sonido; // Asignar el nuevo MediaPlayer a la variable mediaPlayer
+            mediaPlayer = sonido;
             activeMediaPlayers.add(sonido);
             sonido.start();
             Toast.makeText(this, "Nota: " + nombre, Toast.LENGTH_SHORT).show();
             sonido.setOnCompletionListener(mp -> {
                 activeMediaPlayers.remove(mp);
                 mp.release();
-                mediaPlayer = null; // Asegurarse de limpiar la referencia
+                mediaPlayer = null;
             });
         }
     }

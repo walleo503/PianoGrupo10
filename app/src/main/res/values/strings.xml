@@ -7,8 +7,8 @@
     <string name="sol">Sol</string>
     <string name="la">La</string>
     <string name="si">Si</string>
-    <string name="gallo">Gallo</string>
-    <string name="pavo">Pavo</string>
     <string name="animales">Animales</string>
     <string name="piano_animall">Piano animal</string>
+    <string name="piano_instrumental">Piano Instrumental</string>
+    <string name="instrumentos">Instrumentos</string>
 </resources>

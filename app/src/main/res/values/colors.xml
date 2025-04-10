@@ -3,6 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="teclas">#FFFFFFFF</color>
     <color name="tecla2">#E73333</color>
+    ----------------------------------------------
+    <color name="fondo_animal">#F2EA5A</color>
     <color name="pollito">#FFC709</color>
     <color name="pavo">#FF7C2E</color>
     <color name="oveja">#FBFBFB</color>
@@ -10,4 +12,14 @@
     <color name="pato">#74D1FF</color>
     <color name="vaca">#BAFF8B</color>
     <color name="pajaro">#D0F88F</color>
+    ----------------------------------------
+    <color name="fondo_instrumental">#FF9D77</color>
+    <color name="acordeon">#EDE675</color>
+    <color name="flauta">#F48949</color>
+    <color name="guitarra">#F48888</color>
+    <color name="pianoi">#F093D3</color>
+    <color name="tambores">#74D1FF</color>
+    <color name="trompeta">#72F48E</color>
+    <color name="violin">#D0F88F</color>
+
 </resources>
